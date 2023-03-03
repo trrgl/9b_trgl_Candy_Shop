@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 99.2vw;
+    height: 110vh;
+    background-color: pink;
+}
+#head{
+    width: 99.2vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Zeyada', cursive;
+    font-size: 108px;
+}
+#line{
+    width: 99.2vw;
+    height: 5px;
+    background-color: black;
+}
+#home{
+    width: 100px;
+    height: auto; 
+    margin: 25px;
+    position: absolute;
+}

@@ -4,19 +4,27 @@
     padding: 0;
 }
 body{
-    width: 100vw;
+    width: 99.2vw;
     height: 100vh;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-#profile{
+.profile{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    line-height: 125px;
 }
 #pfp{
     margin: 50px;
     width: 300px;
     height: 300px;
+}
+#pffp{
+    display: flex;
+    align-items: center;
 }
 h1{
     font-family: 'Zeyada', cursive;
