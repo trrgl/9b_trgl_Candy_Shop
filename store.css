@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +7,8 @@ body{
     width: 99.2vw;
     height: 110vh;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
 }
 #head{
     width: 99.2vw;
@@ -16,7 +18,7 @@ body{
     justify-content: center;
 }
 h1{
-    font-family: 'Zeyada', cursive;
+    font-family: 'Delicious Handrawn', cursive;
     font-size: 108px;
 }
 #line{
@@ -25,8 +27,36 @@ h1{
     background-color: black;
 }
 #home{
-    width: 100px;
+    width: 80px;
     height: auto; 
-    margin: 25px;
+    margin: 15px;
     position: absolute;
+}
+#items{
+    margin-left: 25vw;
+    width: 50vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.image{
+    width: 200px;
+    height: auto;
+}
+.candy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+h2{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 24px;
+}
+.amount{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
 }
