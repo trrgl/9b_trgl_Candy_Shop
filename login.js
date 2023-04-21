@@ -48,7 +48,7 @@ const userData = [
     let pass = document.getElementById("lpass").value;
     for (let i = 0; i < userData.length; i++) {
       if (userData[i].email == email && userData[i].password == pass) {
-        window.location.replace("./News.html");
+        window.location.replace("./account.html");
       }
     }
   }

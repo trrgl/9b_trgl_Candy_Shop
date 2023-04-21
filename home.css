@@ -9,7 +9,7 @@ body{
 }
 #main{
     width: 100vw;
-    height: 85vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,9 +65,4 @@ p{
 .icon:hover{
     background-color: rgb(255, 231, 235);
     box-shadow: 0 10px 15px #afe0f5;
-}
-#header{
-    width: 100vw;
-    height: 10vh;
-    background-color: white;
 }
