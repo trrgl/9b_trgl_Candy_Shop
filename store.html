@@ -1,42 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="store.css">
-</head>
-<body>
-    <a href="./home.html">
-        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" id="home">
-    </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purchase</title>
+    <link rel="stylesheet" href="./store.css" />
+  </head>
+  <body>
     <div id="head">
-        <h1>Candies</h1>
+      <a href="home.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" style="width: 50px; height: auto;">
+      </a>
     </div>
+    <div id="filler"></div>
     <div id="line"></div>
-    <div id="items">
-        <div class="candy">
-            <img src="https://pngimg.com/uploads/snickers/snickers_PNG13929.png" class="image">
-            <h2>---------<br>Snickers<br>---------</h2>
-            <input type="number" class="amount">
-        </div>
-        <div class="candy">
-            <img src="https://pngimg.com/d/skittles_PNG15.png" class="image">
-            <h2>---------<br>Skittles<br>---------</h2>
-            <input type="number" class="amount">
-        </div>
-        <div class="candy">
-            <img src="https://www.pngplay.com/wp-content/uploads/15/Twix-Cookie-Bars-Transparent-File.png" class="image">
-            <h2>------<br>Twix<br>------</h2>
-            <input type="number" class="amount">
-        </div>
-        <div class="candy"></div>
-        <div class="candy">
-            <img src="https://sourpatchkids.com/media/catalog/product/cache/ec4522c5f46f94cf004b090e7d983f58/o/r/original_6.png" class="image">
-            <h2>-----------------<br>Sour Patch Kids<br>-----------------</h2>
-            <input type="number" class="amount">
-        </div>
+    <div id="products"></div>
+    <div id="basket"></div>
+    <div id="done">
+      <button onclick="Purchase()" id="buy">худалдан авах</button>
+      <p id="total"></p>
     </div>
-</body>
+    <script src="./store.js"></script>
+  </body>
 </html>

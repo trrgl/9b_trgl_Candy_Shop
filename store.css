@@ -3,60 +3,114 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 99.2vw;
-    height: 110vh;
-    background-color: pink;
-    display: flex;
-    flex-direction: column;
-}
 #head{
-    width: 99.2vw;
-    height: 15vh;
+    width: 100vw;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    background-color: pink;
+}
+#line{
+    width: 100vw;
+    height: 5px;
+    background-color: black;
+    position: fixed; 
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#products{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    width:  390px;
+    height: 300px;
+    margin-right: 42.5px;
+    margin-left: 42.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: green;
+    font-size: 30px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+#price{
+    color: red;
+    font-size: 30px;
+}
+#filler{
+    width: 100vw;
+    height: 10vh;
+}
+p{
+    font-family: 'Delicious Handrawn', cursive;
 }
 h1{
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 108px;
 }
-#line{
-    width: 99.2vw;
-    height: 5px;
-    background-color: black;
+h3{
+    font-family: 'Delicious Handrawn', cursive;
 }
-#home{
-    width: 80px;
-    height: auto; 
-    margin: 30px;
-    position: absolute;
+#edit{
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 12px;
+    width: 45px;
 }
-#items{
-    margin-left: 25vw;
-    width: 50vw;
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.image{
-    width: 200px;
+.productImage{
+    width: 100px;
     height: auto;
 }
-.candy{
+#basket{
+    width: 100vw;
+    height: 200px;
+    border: 1px black solid;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 50vw;
+    flex-wrap: wrap;
 }
-h2{
-    font-family: 'Delicious Handrawn', cursive;
-    font-size: 24px;
+#buy{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
 }
-.amount{
+#buy:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+#done{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#total{
     font-size: 24px;
-    width: 50px;
-    height: 50px;
 }
